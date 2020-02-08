@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import StoriesAPIStory, { StoriesAPICollection } from 'react-stories-api';
 
 import logo from './logo.svg';
@@ -13,7 +13,7 @@ const LandingPage = () => (
     apiKey={storiesAPIKey}
     id={2}
     endpoint={storiesAPIEndpoint}
-    urlFormatter="/$id"
+    urlFormatter="#$id"
   />
 );
 
@@ -29,14 +29,14 @@ const StoryPage = (props) => (
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter hashType="noslash">
       <div className="App">
         <Switch>
           <Route path="/:storyId" component={StoryPage} />
           <Route path="/" component={LandingPage} />
         </Switch>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
