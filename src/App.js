@@ -1,11 +1,11 @@
 import React from 'react';
+import { Button } from '@material-ui/core';
 import { HashRouter, Route, Switch } from 'react-router-dom';
 import StoriesAPIStory, { StoriesAPICollection } from 'react-stories-api';
 
-import logo from './logo.svg';
 import './App.css';
 import {
-  storiesAPICollectionId, storiesAPIEndpoint, storiesAPIKey
+  logo, storiesAPICollectionId, storiesAPIEndpoint, storiesAPIKey
 } from "./constants";
 
 const LandingPage = () => (
@@ -23,6 +23,11 @@ const StoryPage = (props) => (
     id={props.match.params.storyId}
     collection={storiesAPICollectionId}
     endpoint={storiesAPIEndpoint}
+    options={{logo: (
+      <Button href="/">
+        <img src={logo} style={{width: "100%"}}/>
+      </Button>
+    )}}
   />
 )
 
