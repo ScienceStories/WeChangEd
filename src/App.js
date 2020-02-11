@@ -24,7 +24,7 @@ const StoryPage = (props) => (
     collection={storiesAPICollectionId}
     endpoint={storiesAPIEndpoint}
     options={{logo: (
-      <Button href="/">
+      <Button href="#">
         <img src={logo} style={{width: "100%"}}/>
       </Button>
     )}}
