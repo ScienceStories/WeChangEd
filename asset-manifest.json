@@ -1,28 +1,27 @@
 {
   "files": {
-    "main.css": "/WeChangEd/static/css/main.d1b05096.chunk.css",
-    "main.js": "/WeChangEd/static/js/main.fc829095.chunk.js",
-    "main.js.map": "/WeChangEd/static/js/main.fc829095.chunk.js.map",
+    "main.css": "/WeChangEd/static/css/main.d2b017e0.chunk.css",
+    "main.js": "/WeChangEd/static/js/main.cd2c2954.chunk.js",
+    "main.js.map": "/WeChangEd/static/js/main.cd2c2954.chunk.js.map",
     "runtime-main.js": "/WeChangEd/static/js/runtime-main.2a7d9385.js",
     "runtime-main.js.map": "/WeChangEd/static/js/runtime-main.2a7d9385.js.map",
-    "static/css/2.008fb0e7.chunk.css": "/WeChangEd/static/css/2.008fb0e7.chunk.css",
-    "static/js/2.813ef8aa.chunk.js": "/WeChangEd/static/js/2.813ef8aa.chunk.js",
-    "static/js/2.813ef8aa.chunk.js.map": "/WeChangEd/static/js/2.813ef8aa.chunk.js.map",
+    "static/css/2.7e74c119.chunk.css": "/WeChangEd/static/css/2.7e74c119.chunk.css",
+    "static/js/2.8ca546c6.chunk.js": "/WeChangEd/static/js/2.8ca546c6.chunk.js",
+    "static/js/2.8ca546c6.chunk.js.map": "/WeChangEd/static/js/2.8ca546c6.chunk.js.map",
     "index.html": "/WeChangEd/index.html",
-    "precache-manifest.0c20044fe0530bf91b85058c9db30b13.js": "/WeChangEd/precache-manifest.0c20044fe0530bf91b85058c9db30b13.js",
+    "precache-manifest.006b4a3f2362f2046c3c768c95922a55.js": "/WeChangEd/precache-manifest.006b4a3f2362f2046c3c768c95922a55.js",
     "service-worker.js": "/WeChangEd/service-worker.js",
-    "static/css/2.008fb0e7.chunk.css.map": "/WeChangEd/static/css/2.008fb0e7.chunk.css.map",
-    "static/css/main.d1b05096.chunk.css.map": "/WeChangEd/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.813ef8aa.chunk.js.LICENSE.txt": "/WeChangEd/static/js/2.813ef8aa.chunk.js.LICENSE.txt",
+    "static/css/2.7e74c119.chunk.css.map": "/WeChangEd/static/css/2.7e74c119.chunk.css.map",
+    "static/css/main.d2b017e0.chunk.css.map": "/WeChangEd/static/css/main.d2b017e0.chunk.css.map",
+    "static/js/2.8ca546c6.chunk.js.LICENSE.txt": "/WeChangEd/static/js/2.8ca546c6.chunk.js.LICENSE.txt",
     "static/media/background.jpg": "/WeChangEd/static/media/background.d2fcd304.jpg",
-    "static/media/logo.svg": "/WeChangEd/static/media/logo.5d5d9eef.svg",
     "static/media/styles.css": "/WeChangEd/static/media/revicons.2feb69cc.eot"
   },
   "entrypoints": [
     "static/js/runtime-main.2a7d9385.js",
-    "static/css/2.008fb0e7.chunk.css",
-    "static/js/2.813ef8aa.chunk.js",
-    "static/css/main.d1b05096.chunk.css",
-    "static/js/main.fc829095.chunk.js"
+    "static/css/2.7e74c119.chunk.css",
+    "static/js/2.8ca546c6.chunk.js",
+    "static/css/main.d2b017e0.chunk.css",
+    "static/js/main.cd2c2954.chunk.js"
   ]
 }
