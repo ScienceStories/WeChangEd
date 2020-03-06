@@ -1,17 +1,17 @@
 import React from 'react';
-import { Button } from '@material-ui/core';
+import { Button, createMuiTheme, MuiThemeProvider, } from '@material-ui/core';
 import { HashRouter, Route, Switch } from 'react-router-dom';
 import StoriesAPIStory, { StoriesAPICollection } from 'react-stories-api';
 
 import './App.css';
 import {
-  logo, storiesAPICollectionId, storiesAPIEndpoint, storiesAPIKey
+  logo, storiesAPICollectionId, storiesAPIEndpoint, storiesAPIKey, theme,
 } from "./constants";
 
 const LandingPage = () => (
   <StoriesAPICollection
     apiKey={storiesAPIKey}
-    id={2}
+    id={storiesAPICollectionId}
     endpoint={storiesAPIEndpoint}
     urlFormatter="#$id"
   />
@@ -25,7 +25,7 @@ const StoryPage = (props) => (
     endpoint={storiesAPIEndpoint}
     options={{logo: (
       <Button href="#">
-        <img src={logo} style={{width: "100%"}}/>
+        <img alt="WeChangEd Logo" src={logo} style={{width: "100%"}}/>
       </Button>
     )}}
   />
@@ -35,12 +35,14 @@ const StoryPage = (props) => (
 function App() {
   return (
     <HashRouter hashType="noslash">
-      <div className="App">
-        <Switch>
-          <Route path="/:storyId" component={StoryPage} />
-          <Route path="/" component={LandingPage} />
-        </Switch>
-      </div>
+      <MuiThemeProvider theme={createMuiTheme(theme)}>
+        <div className="App">
+          <Switch>
+            <Route path="/:storyId" component={StoryPage} />
+            <Route path="/" component={LandingPage} />
+          </Switch>
+        </div>
+      </MuiThemeProvider>
     </HashRouter>
   );
 }
