@@ -1,0 +1,124 @@
+This Agreement is entered into between Histropedia Ltd (company number 8079502) with its principal place of business at 60B Arthur Road, London N7 6DR (“Histropedia” or “we”); and you, the user of the Software (“you” or “your”).
+
+1	DEFINITIONS 
+
+
+1.1	In this Agreement the following terms have the meanings ascribed to them:
+“Agreement” means this end user licence agreement.
+“Intellectual Property Rights” means patents, trademarks, design rights, database rights and copyright, whether registered or not, and anything related thereto or similar from time to time; information relating to Histropedcia’s business and method of operation; and any information provided to you through use of the Software or pursuant to its operation.
+“OSS” means the following software licensed under one of the permissive open source software licences: jQuery, jQuery Hotkeys Plugin, MouseWheel.js.
+“Software” means the software known as “HistropediaJS”.
+“Term” means in perpetuity or until terminated in accordance with clause 9.
+
+1.2	A person includes a natural person, corporate or unincorporated body (whether or not having separate legal personality).
+
+1.3	Unless the context otherwise requires, words in the singular include the plural and in the plural include the singular and a reference to one gender includes a reference to the other genders.
+
+1.4	Where the words include(s), including or in particular are used in this agreement, they are deemed to have the words "without limitation" following them.
+
+2	SCOPE OF LICENCE
+
+
+2.1	In consideration of the mutual covenants contained in this Agreement both parties agree as follows:
+2.1.1	Histropedia hereby grants you a non-exclusive non-transferable limited personal royalty-free right to use the Software only during the Term; and
+2.1.2	you may not use the Software as part of a service bureau, as an application service provider, in the provision of outsourced services to a third party, embedded or incorporated in another application or service, where Histropedia’s logo, branding and/or names is obscured or removed, for the provision of any services for which you charge a fee whether directly or indirectly, or as part of a disaster recovery, clustered or multi-server configuration, nor to permit any third parties to use or access the Software.
+
+2.2	Histropedia reserves the right at any time to implement remote licence usage reporting and compliance management in the Software but in doing so it shall comply with all applicable data protection and privacy laws.
+
+3	MAINTENANCE AND SUPPORT
+
+
+3.1	The parties expressly agree that Histropedia is under no obligation to support the Software and, given that no licence fees are paid for the use of the Software, Histropedia assumes no liability for the operation or use of the Software howsoever.  
+
+3.2	Histropedia may in its sole discretion fix any bugs reported to it or make a new version or upgrade of the Software available.  If Histropedia releases a new version or upgrade to the Software then it may require you to use this version or upgrade, in which case your licence to use the version or release of the Software so replaced will terminate automatically on the earlier of 30 days after receipt of Histropedia’s notice that you must use the new version or release or you becoming aware of its availability and required replacement.
+
+
+4	YOUR RESPONSIBILITIES
+
+
+4.1	Throughout the term of this Agreement you agree:
+4.1.1	not to permit the Software to be combined with any other software except as expressly agreed by Histropedia; 
+4.1.2	to co-operate to a reasonable extent with Histropedia’s personnel in the diagnosis, investigation and correction of any faults; and
+4.1.3	not to do anything nor permit others to do anything which brings or is likely to bring the reputation and or goodwill of Histropedia into disrepute.
+
+5	TITLE, COPIES AND SECURITY
+
+
+5.1	Histropedia warrants that is the owner of all Intellectual Property Rights in the Software or has the right to grant licences for the same.  
+
+5.2	The Software may operate in conjunction with OSS in which case your use of the OSS will be subject to the relevant open source licence.  The OSS and the Software are entirely separate and distinct software applications.  If Histropedia makes a copy of the OSS available to you then your use of the same is entirely at your own risk and Histropedia provides no warranties or guarantees in relation thereto.  Notwithstanding any other limitation or exclusion of liability contained in this Agreement you agree that Histropedia shall have no liability whatsoever in respect of your use of the OSS (except to the extent expressly required by law).  You agree and accept that as no fee is paid for your use of the OSS the acceptance of this risk is reasonable and fair.
+
+5.3	You must:
+5.3.1	effect and maintain adequate security measures to safeguard the Software from access, use or copying by any unauthorised person;
+5.3.2	retain the Software and all copies thereof under your effective control at all times; and
+5.3.3	maintain a full and accurate record of your use, copying and disclosure of the Software and the OSS and shall produce such record to Histropedia on request from time to time, or in default of any specific requirement by Histropedia, then in accordance with good data processing practice; and shall allow Histropedia, on reasonable request, to inspect and take copies of such records from time to time.
+
+5.4	Where you edit or amend the Software then you agree that Histropedia shall have an unlimited right to use, modify, adapt and sub-licence the same without paying any royalties or fees to you.
+
+6	WARRANTIES
+
+
+6.1	Histropedia provides no warranties in respect of the Software, including that: 
+6.1.1	the Software will provide any particular facilities and functions; and
+6.1.2	the operation of the Software will be uninterrupted or error free. 
+
+6.2	You warrant that you will comply at all times in your use of the Software with all applicable data protection and privacy laws.
+
+6.3	Histropedia disclaims, in so far as it is permitted to do so by law, all implied guarantees and warranties including without limitation any warranty of satisfactory quality or fitness for a particular purpose whether or not any specific purpose has been notified to Histropedia by you.
+
+6.4	Your use of the Software is entirely at your own risk.
+
+7	LIMITS OF LIABILITY
+
+
+7.1	Except in the case of death or personal injury arising from Histropedia’s own negligence or for fraud for which no limit or exclusions apply, Histropedia excludes all liability to the greatest extent permitted by law in contract, tort (including negligence), breach of statutory duty or otherwise for indirect losses, claims, damages, expenses or proceedings; special, incidental or consequential loss or damage; loss of profits; and wasted management time incurred or suffered by you arising directly or indirectly  under this Agreement.  
+
+7.2	In all other instances Histropedia’s liability in aggregate shall be limited to no more than £1,000.
+
+8	COPYRIGHT INDEMNITY
+
+
+8.1	Histropedia shall indemnify you on demand against your reasonable and direct costs, claims, demands, expenses and liabilities arising out of or in connection with any claim that the normal use or possession of the Software infringes the Intellectual Property Rights of a third party in any country which is a signatory to the Berne Convention provided that:
+8.1.1	you do not prejudice Histropedia’s defence of any such claim;
+8.1.2	the infringement is not caused by or contributed to by your acts other than through your use of the Software in accordance with this Agreement;
+8.1.3	Histropedia is promptly notified in writing of the details of the claim;
+8.1.4	you give Histropedia all reasonable assistance in dealing with any claims; and
+8.1.5	Histropedia shall have sole conduct and control of its settlement or compromise.
+
+8.2	If your normal use or possession of the Software is held by a court of competent jurisdiction to constitute an infringement of a third party’s Intellectual Property Rights then Histropedia may at its own expense:
+8.2.1	procure for you the right to continue using the Software, or
+8.2.2	modify or replace the Software so as to avoid the infringement.
+
+8.3	Histropedia shall have no liability for any claim of infringement based on:
+8.3.1	the use of other than the latest unaltered current release of the Software or the computer’s operating system on which the Software is expected to operate, or
+8.3.2	your refusal to use a modified or replaced Software supplied or offered to be supplied pursuant to Clause 8.2.1  above.
+
+8.4	The foregoing states the entire liability of Histropedia with respect to infringement or alleged infringement of any third party rights of any kind whatsoever by the Software or Histropedia.
+
+9	TERMINATION
+
+
+9.1	This Agreement shall continue for the duration of the Term or until terminated by either party giving the other party at least 90 days’ notice thereof.
+  
+9.2	Either party may terminate this Agreement forthwith on giving notice in writing to the other party if the other party commits any material breach of this Agreement and, in the case of a breach capable of being remedied, shall have failed within 30 days after the receipt of a request in writing from the first party to do so, to remedy the beach.
+
+9.3	On termination of this Agreement howsoever you must immediately cease to use the Software and you must  immediately erase all copies of the Software.
+
+9.4	Termination of this Agreement howsoever caused shall not affect any rights of action or remedy of either party under this Agreement which may have accrued up to the date of termination
+
+10	ANCILLIARY PROVISIONS
+
+
+10.1	SEVERABILITY: If any of the provisions or part of a provision of this Agreement is judged to be illegal or unenforceable, the continuation in full force and effect of the the provisions or provision will not be prejudiced unless the substantive purpose of this Agreement is then frustrated, in which case either party may terminate this Agreement forthwith on written notice.  Where any provision of this Agreement is deemed unenforceable under any applicable local laws, then the offending part shall be deemed excised from this Agreement and replaced by equivalent provisions with the same effect to the fullest extent possible and permitted by such local laws.
+
+10.2	WAIVER:  No forbearance or delay by either party in enforcing its respective rights will prejudice or restrict the rights of that party, and no waiver of any such rights or of any breach of any contractual terms will be deemed to be a waiver of any other right or of any later breach.
+
+10.3	ASSIGNMENT:  You may not assign this Agreement or any benefits or interests arising under this Agreement without the prior written consent of Histropedia.  Should you purport to assign this Agreement in contravention of this clause then Histropedia may in its sole option terminate this Agreement forthwith without prejudice to any other rights it may have in respect thereof.  For the avoidance of doubt this Clause 10.3 shall not apply to the OSS.
+
+10.4	NOTICES:  Any notice required to be given under this Agreement by either party must be in writing and presented in the English language, and may be delivered either personally or by first class recorded delivery post in the United Kingdom and in the case of post will be deemed to have been received 3 working days after the date of posting.  Notices will be delivered to the principal place of business of either party or to any other address notified in writing by either party to the other for the purpose of receiving notices after the date of this Agreement.  In any event notice shall have been deemed to have been given after actual receipt of the same by the Company Secretary of either party (or equivalent thereof).
+
+10.5	FORCE MAJEURE:  Neither party shall be liable for any delay in performance or failure to perform its obligations (other than a payment obligation) under this Agreement due to any cause outside its reasonable control.  Such delay or failure shall not constitute a breach of this Agreement and the time for performance of the affected obligation shall be extended by such period as is reasonable.
+
+10.6	THIRD PARTY RIGHTS:  Any third party who is not a party to this Agreement shall have no rights under the Contracts (Rights of Third Parties) Act 1999.
+
+10.7	GOVERNING LAW AND JURISDICTION:  This Agreement shall be governed by English Law and the parties submit to the non-exclusive jurisdiction of the English Courts. 
