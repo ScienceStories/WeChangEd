@@ -2,7 +2,6 @@ import _logo from './assets/images/logo.png';
 
 export const blogURL = 'https://www.wechanged.ugent.be/blog/';
 export const browseURL = '/stories';
-export const histropediaBaseURL = 'http://histropedia.com/showcase/wikidata-viewer.html';
 export const logo = _logo;
 export const navLinks = [
   { path: '/', title: 'Home' },
@@ -12,8 +11,8 @@ export const navLinks = [
 export const projectUrl = 'https://www.wechanged.ugent.be/';
 export const siteName = 'Agents of Change';
 export const storiesAPICollectionId = 2;
-export const storiesAPISPARQLQueryId = 1;
-export const storiesAPIEndpoint = 'https://stories-api-stage.herokuapp.com';
+export const storiesAPISPARQLQueryId = 3; // TODO
+export const storiesAPIEndpoint = 'https://stories-api-pr-754.herokuapp.com'; // TODO
 export const storiesAPIKey = 'rf9qXEDE.SqlziAxtY58fTbSyx2MoKz2naXO9UlvE';
 export const resourceLinks = [
   {
