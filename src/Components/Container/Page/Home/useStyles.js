@@ -4,15 +4,20 @@ import hero from '../../../../assets/images/hero.png';
 
 const useStyles = makeStyles((theme) => ({
   about: {
-    background: theme.palette.secondary.light,
+    background: theme.palette.background.paper,
     boxShadow: theme.shadows[4],
-    color: theme.palette.primary.dark,
     padding: theme.spacing(3),
+    textAlign: 'left',
     zIndex: 1,
     [theme.breakpoints.up('md')]: {
       minHeight: '80vh',
       padding: `${theme.spacing(6)}px ${theme.spacing(8)}px`,
     },
+  },
+  aboutHeader: {
+    color: theme.palette.primary.main,
+    fontSize: theme.typography.h5.fontSize,
+    fontWeight: theme.typography.fontWeightBold,
   },
   blog: {
     padding: theme.spacing(5),
@@ -35,9 +40,18 @@ const useStyles = makeStyles((theme) => ({
   heroSection: {
     zIndex: 1,
   },
+  heroBtn: {
+    background: theme.palette.accent.main,
+    color: theme.palette.accent.contrastText,
+  },
   img: {
     width: '100%',
     boxShadow: theme.shadows[6],
+  },
+  iframe: {
+    border: 'none',
+    height: '65vh',
+    width: '100%',
   },
   logo: {
     maxHeight: 100,
@@ -45,14 +59,22 @@ const useStyles = makeStyles((theme) => ({
   medium: {
     fontWeight: theme.typography.fontWeightMedium,
   },
-  resources: {
-    background: theme.palette.primary.main,
-    color: theme.palette.primary.contrastText,
+  overline: {
+    fontSize: theme.typography.h6.fontSize,
+    textAlign: 'center',
+  },
+  timelineHeader: {
+    background: theme.palette.primary.light,
     padding: theme.spacing(5),
-    paddingBottom: theme.spacing(20),
+  },
+  timelineHeaderText: {
+    fontWeight: theme.typography.fontWeightBold,
   },
   stories: {
     padding: theme.spacing(5),
+  },
+  text: {
+    textAlign: 'left',
   },
 }));
 

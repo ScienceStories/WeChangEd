@@ -1,10 +1,4 @@
-import {
-  Button,
-  Grid,
-  List,
-  ListItem,
-  Typography,
-} from '@material-ui/core';
+import { Button, Grid, Typography } from '@material-ui/core';
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -15,14 +9,13 @@ import {
   blogURL,
   browseURL,
   logo,
-  resourceLinks,
+  mapQueryUrl,
 } from '../../../../constants';
 import AppLayout from '../../AppLayout';
 import HistropediaTimeline from '../../HistropediaTimeline';
 import useStyles from './useStyles';
 
 // TODO: Replace lorem text
-// TODO: Figure out page jumping
 // TODO: Update Blog href
 
 const HomePage = () => {
@@ -57,11 +50,13 @@ const HomePage = () => {
                 className={classes.bold}
                 variant="h5"
               >
-                Women Editors and Socio-Cultural Transformation in Europe, 1710-1920
+                Women Editors and Socio-Cultural Transformation in Europe
+                <br />
+                1710-1920
               </Typography>
               <br />
               <Button
-                color="secondary"
+                className={classes.heroBtn}
                 component={Link}
                 to={browseURL}
                 variant="contained"
@@ -77,7 +72,7 @@ const HomePage = () => {
           xs={12}
         >
           <Typography
-            className={classes.bold}
+            className={classes.aboutHeader}
             variant="overline"
           >
             About the Project
@@ -117,11 +112,11 @@ const HomePage = () => {
           xs={12}
         >
           <iframe
-            title="Query"
-            style={{width: '100%', height: '65vh', border: 'none'}}
-            src="https://query.wikidata.org/embed.html#%23defaultView%3AMap%0ASELECT%20%3Fitem%20%3FitemLabel%20%3Fbirthplace%20%3Fbirthyear%20%3Fcoord%20%3Flayer%20%3Fimage%20WHERE%20%7B%0A%20%20%3Fitem%20wdt%3AP7947%20%3Fid%3B%0A%20%20%20%20wdt%3AP570%20%3Fdod%3B%0A%20%20%20%20wdt%3AP19%20%3Fplace.%0A%20%20%3Fplace%20wdt%3AP625%20%3Fcoord.%0A%20%20OPTIONAL%20%7B%20%3Fitem%20wdt%3AP569%20%3Fdob.%20%7D%0A%20%20BIND%28YEAR%28%3Fdob%29%20AS%20%3Fbirthyear%29%0A%20%20BIND%28IF%28%3Fbirthyear%20%3C%201700%20%2C%20%22Pre-1700%22%2C%20IF%28%3Fbirthyear%20%3C%201751%20%2C%20%221700-1750%22%2C%20IF%28%3Fbirthyear%20%3C%201801%20%2C%20%221751-1800%22%2C%20IF%28%3Fbirthyear%20%3C%201851%20%2C%20%221801-1850%22%2C%20IF%28%3Fbirthyear%20%3C%201901%20%2C%20%221851-1900%22%2C%20IF%28%3Fbirthyear%20%3C%201951%20%2C%20%221901-1950%22%2C%20%22Post-1950%22%29%29%29%29%29%29%20AS%20%3Flayer%29%0A%20%20OPTIONAL%20%7B%3Fitem%20wdt%3AP18%20%3Fimage%7D.%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%0A%7D"
+            className={classes.iframe}
             referrerPolicy="origin"
             sandbox="allow-scripts allow-same-origin allow-popups"
+            src={mapQueryUrl}
+            title="Query Map"
           />
         </Grid>
         <Grid
@@ -197,15 +192,23 @@ const HomePage = () => {
             >
               <Typography
                 color="primary"
+                className={classes.overline}
                 variant="overline"
               >
                 The WeChanEd Dataset
               </Typography>
-              <Typography variant="subtitle1">
+              <Typography
+                className={classes.text}
+                variant="subtitle1"
+              >
                 We partnered with the Science Stories Team to develop a Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ex explicabo quos? Corporis, cum delectus dicta earum facilis itaque nam provident quisquam rerum sint tempora, tempore totam, voluptates. Aliquam autem dolores eligendi facilis fugit inventore, ipsa maiores molestias necessitatibus numquam, officiis perspiciatis possimus quis sequi suscipit ullam vel velit. Consectetur deleniti esse harum illo iste maxime repellat sequi sint totam vero! Accusamus aliquam, aut autem cumque, dicta dolorem dolores dolorum eligendi enim eum fugit impedit iste natus nesciunt optio perferendis placeat quae quam quibusdam quidem quisquam sed similique tempore temporibus vitae, voluptas voluptatum. Aspernatur corporis magni, neque obcaecati sequi soluta.
               </Typography>
               <br />
-              <Typography variant="subtitle1">
+
+              <Typography
+                className={classes.text}
+                variant="subtitle1"
+              >
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ex explicabo quos? Corporis, cum delectus dicta earum facilis itaque nam provident quisquam rerum sint tempora, tempore totam, voluptates. Aliquam autem dolores
               </Typography>
               <br />
@@ -224,6 +227,15 @@ const HomePage = () => {
           item
           xs={12}
         >
+          <div className={classes.timelineHeader}>
+            <Typography
+              className={classes.timelineHeaderText}
+              color="primary"
+              variant="h4"
+            >
+              Over 2 Centuries of Change Agents
+            </Typography>
+          </div>
           <HistropediaTimeline id="editors-timeline" />
         </Grid>
         <Grid
@@ -259,57 +271,6 @@ const HomePage = () => {
           >
             Learn More
           </Button>
-        </Grid>
-        <Grid
-          className={classes.resources}
-          item
-          xs={12}
-        >
-          <Grid
-            container
-            justify="center"
-            spacing={10}
-          >
-            <Grid
-              item
-              xs={12}
-            >
-              <Typography
-                className={classes.bold}
-                variant="h4"
-              >
-                Additional Resources
-              </Typography>
-            </Grid>
-            { resourceLinks.map(({ category, links }) => (
-              <Grid
-                item
-                md={Math.max(resourceLinks.length/12, 4)}
-                key={category}
-              >
-                <Typography
-                  className={classes.bold}
-                  variant="subtitle1"
-                >
-                  { category }
-                </Typography>
-                <List>
-                  { links.map(({ href, label }) => (
-                    <ListItem
-                      button
-                      color="inherit"
-                      component="a"
-                      href={href}
-                      key={label}
-                      target="_blank"
-                    >
-                      { label }
-                    </ListItem>
-                  ))}
-                </List>
-              </Grid>
-            ))}
-          </Grid>
         </Grid>
       </Grid>
     </AppLayout>

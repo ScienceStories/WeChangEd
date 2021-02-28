@@ -8,12 +8,17 @@ const useStyles = makeStyles((theme) => ({
     width: '100%',
   },
   credit:{
-    opacity: .5,
     padding: theme.spacing(1)
   },
   logo:{
     maxHeight: theme.typography.h2.fontSize,
     maxWidth: '100%',
+  },
+  ssBtn: {
+    padding: 0,
+    paddingBottom: 3,
+    paddingLeft: theme.spacing(1),
+    fontSize: theme.typography.caption.fontSize,
   },
   root: {
     background: theme.palette.background.paper,
