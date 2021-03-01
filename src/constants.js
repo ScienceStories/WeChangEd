@@ -55,9 +55,9 @@ export const resourceLinks = [
 ];
 export const siteName = 'Agents of Change';
 export const storiesAPICollectionId = 2;
-export const storiesAPIEndpoint = 'https://stories-api-pr-754.herokuapp.com'; // TODO
+export const storiesAPIEndpoint = 'https://stories-api-stage.herokuapp.com';
 export const storiesAPIKey = 'rf9qXEDE.SqlziAxtY58fTbSyx2MoKz2naXO9UlvE';
-export const storiesAPISPARQLQueryId = 3; // TODO
+export const storiesAPISPARQLQueryId = 3;
 export const theme = {
   palette: {
     accent: {
