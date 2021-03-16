@@ -7,7 +7,7 @@ import useStyles from './useStyles';
 
 const Footer = () => {
   const classes = useStyles();
-  const credit = `© ${1900 + new Date().getYear()}, In Collaboration with`;
+  const credit = `© ${1900 + new Date().getYear()} Ghent University, In Collaboration with`;
   return (
     <footer className={classes.root}>
       <Grid
@@ -40,6 +40,7 @@ const Footer = () => {
           <Typography variant="caption">
             { credit }
             <Button
+              className={classes.ssBtn}
               color="secondary"
               href="http://sciencestories.io"
               size="small"
