@@ -1,21 +1,17 @@
 import axios from 'axios';
 import { useLocation } from 'react-router-dom';
 
-import { histropediaBaseURL } from '../constants';
+import {
+  storiesAPIEndpoint,
+  storiesAPIKey,
+  storiesAPISPARQLQueryId,
+} from '../constants';
 
-export const formatHistropediaURL = (queryBody) => {
-  const q = encodeURI(queryBody);
-  return `${histropediaBaseURL}?q=${q}&v=t`;
-};
-
-export const getHistropediaURL = async (endpoint, apiKey, id) => {
-  const queryBody = await getStoriesAPIQuery(endpoint, apiKey, id);
-  return formatHistropediaURL(queryBody);
-}
-
-export const getStoriesAPIQuery = async (endpoint, apiKey, id) => {
-  const { data: query } = await axios.get(`${endpoint}/api/sparql/${id}?api-key=${apiKey}`);
-  return query.body;
+export const getStoriesAPIQueryTimeline = async (
+  endpoint=storiesAPIEndpoint, apiKey=storiesAPIKey, id=storiesAPISPARQLQueryId,
+) => {
+  const { data } = await axios.get(`${endpoint}/api/wechanged/${id}/timeline?api-key=${apiKey}`);
+  return data;
 }
 
 export const searchURL = (window, query, page) => {

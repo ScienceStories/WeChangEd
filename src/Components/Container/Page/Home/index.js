@@ -16,12 +16,9 @@ import {
   browseURL,
   logo,
   resourceLinks,
-  storiesAPIEndpoint,
-  storiesAPIKey,
-  storiesAPISPARQLQueryId,
 } from '../../../../constants';
 import AppLayout from '../../AppLayout';
-import SPARQLTimelineContainer from '../../SPARQLTimeline';
+import HistropediaTimeline from '../../HistropediaTimeline';
 import useStyles from './useStyles';
 
 // TODO: Replace lorem text
@@ -227,11 +224,7 @@ const HomePage = () => {
           item
           xs={12}
         >
-          <SPARQLTimelineContainer
-            apiKey={storiesAPIKey}
-            endpoint={storiesAPIEndpoint}
-            sparqlQueryId={storiesAPISPARQLQueryId}
-          />
+          <HistropediaTimeline id="editors-timeline" />
         </Grid>
         <Grid
           className={classes.blog}
