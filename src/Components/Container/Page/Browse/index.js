@@ -24,7 +24,7 @@ const BrowsePage = () => {
         id={storiesAPICollectionId}
         onChange={updateHistory}
         page={query.get('page')}
-        q={query.get('q')}
+        q={query.get('q') || ''}
         urlFormatter="#$id"
       />
     </AppLayout>

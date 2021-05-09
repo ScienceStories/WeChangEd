@@ -10,17 +10,13 @@ const useStyles = makeStyles((theme) => ({
     textAlign: 'left',
     zIndex: 1,
     [theme.breakpoints.up('md')]: {
-      minHeight: '80vh',
-      padding: `${theme.spacing(6)}px ${theme.spacing(8)}px`,
+      padding: `${theme.spacing(15)}px ${theme.spacing(10)}px`,
     },
   },
   aboutHeader: {
     color: theme.palette.primary.main,
     fontSize: theme.typography.h5.fontSize,
     fontWeight: theme.typography.fontWeightBold,
-  },
-  blog: {
-    padding: theme.spacing(5),
   },
   bold: {
     fontWeight: theme.typography.fontWeightBold,
