@@ -10,8 +10,7 @@ const useStyles = makeStyles((theme) => ({
     textAlign: 'left',
     zIndex: 1,
     [theme.breakpoints.up('md')]: {
-      minHeight: '80vh',
-      padding: `${theme.spacing(6)}px ${theme.spacing(8)}px`,
+      padding: `${theme.spacing(15)}px ${theme.spacing(10)}px`,
     },
   },
   aboutHeader: {
