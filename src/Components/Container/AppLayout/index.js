@@ -9,6 +9,7 @@ const AppLayout = ({ children, className }) => (
    <div className={className}>
      { children }
    </div>
+    <div style={{ height: 150, width: '100%' }} />
    <Footer />
  </div>
 );

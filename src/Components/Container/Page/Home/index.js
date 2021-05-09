@@ -5,19 +5,11 @@ import { Link } from 'react-router-dom';
 import story1 from '../../../../assets/images/story-1.png';
 import story2 from '../../../../assets/images/story-2.png';
 import story3 from '../../../../assets/images/story-3.png';
-import {
-  biblioURL,
-  blogURL,
-  browseURL,
-  logo,
-  mapQueryUrl,
-} from '../../../../constants';
+import { browseURL, mapQueryUrl } from '../../../../constants';
 import AppLayout from '../../AppLayout';
 import HistropediaTimeline from '../../HistropediaTimeline';
 import useStyles from './useStyles';
 
-// TODO: Replace lorem text
-// TODO: Update Blog href
 
 const HomePage = () => {
   const classes = useStyles();
@@ -79,33 +71,22 @@ const HomePage = () => {
             About the Project
           </Typography>
           <Typography className={classes.medium}>
-            “Agents of Change: Women Editors and Socio-Cultural Transformation in Europe, 1710-1920″ (acronym WeChangEd)
-            is a five-year research project funded by an ERC Starting Grant (2015-2020).
-            It is directed by Marianne Van Remoortel and based at the Department of Literary Studies,
-            Ghent University, Belgium.  The project examines a neglected aspect of the social and
-            cultural life in Europe in the modern period: the impact of women editors on public debate.
-            This project advances the hypothesis that periodical editorship enabled these women to
-            take a prominent role in public life, to influence public opinion and to shape transnational
-            processes of change. In order to test this hypothesis, the project brings together
-            a multilingual and multidisciplinary team of six researchers who combine methodologies
-            from literary studies, (women’s) history and the social sciences to map the transnational
-            networks of intellectual exchange in which women editors participated, with particular
-            attention to practices of textual transfer (including translation, adaptation,
-            reprinting and reviewing) across language boundaries and historical periods. The
-            project has two parts:
-            <br/>
-            1) a database takes stock of women editors and their
-            periodicals, makes available new material and provides a data source for socio-textual
-            network analysis;
-            <br/>
-            2) a series of thematic subprojects, focusing on, for example,
-            domestic ideology, salon culture, fashion and women’s rights, studies the impact of women editors on
-            some of the most significant processes of socio-cultural transformation in modern European history.
-            <br/>
-            By examining how these processes unfolded in the press through practices of textual transfer both
-            among women and in the larger publishing landscape, the project aims not only to initiate a shift in our
-            thinking about the participation of women in society and print culture but also to pave the way for
-            pan-European research on the periodical press.
+            "Agents of Change: Women Editors and Socio-Cultural Transformation in Europe, 1710-1920″
+            (acronym WeChangEd) was an ERC Starting Grant project directed by Marianne Van Remoortel and
+            based at the Department of Literary Studies, Ghent University, Belgium.
+            <br/><br />
+            From 2015 to 2021, a team of seven researchers and seven student interns with complementary language
+            skills and methodological expertise in literary studies, the digital humanities, and the social
+            sciences investigated the impact of women editors on public debate and processes of socio-cultural
+            change in Europe in the eighteenth to early twentieth centuries.
+            Women’s access to public life and to political power and decision-making was limited in this period.
+            Women were often excluded from formal education, and lacked many fundamental legal, political, and
+            financial rights, most notably the right to vote. The WeChangEd project revealed that the print
+            medium of the periodical offered women an alternative means to make their voices heard far beyond
+            their immediate sphere of influence.
+            As editors of their own periodicals, women were able to establish transnational networks of intellectual
+            exchange across Europe, engage in cultural transfer, and position themselves in contemporary
+            debate as makers of culture, arbiters of social values, and proponents of women’s rights.
           </Typography>
         </Grid>
         <Grid
@@ -202,7 +183,11 @@ const HomePage = () => {
                 className={classes.text}
                 variant="subtitle1"
               >
-                We partnered with the Science Stories Team to develop a Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ex explicabo quos? Corporis, cum delectus dicta earum facilis itaque nam provident quisquam rerum sint tempora, tempore totam, voluptates. Aliquam autem dolores eligendi facilis fugit inventore, ipsa maiores molestias necessitatibus numquam, officiis perspiciatis possimus quis sequi suscipit ullam vel velit. Consectetur deleniti esse harum illo iste maxime repellat sequi sint totam vero! Accusamus aliquam, aut autem cumque, dicta dolorem dolores dolorum eligendi enim eum fugit impedit iste natus nesciunt optio perferendis placeat quae quam quibusdam quidem quisquam sed similique tempore temporibus vitae, voluptas voluptatum. Aspernatur corporis magni, neque obcaecati sequi soluta.
+                We partnered with the Science Stories Team to showcase our research through the development
+                of this application powered by Linked Open Data and Semantic Web technologies. We contributed
+                the WeChanEd dataset to the Wikidata knowledgebase to curate visual storytelling interactions with
+                our research. As you browse the collection, you'll be able to dynamically experience layers of both
+                human and machine-curated content through a variety of mediums.
               </Typography>
               <br />
 
@@ -210,7 +195,10 @@ const HomePage = () => {
                 className={classes.text}
                 variant="subtitle1"
               >
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab ex explicabo quos? Corporis, cum delectus dicta earum facilis itaque nam provident quisquam rerum sint tempora, tempore totam, voluptates. Aliquam autem dolores
+                As more humanists, social scientists and other researchers choose to contribute their data to Wikidata
+                we will all benefit. As researchers add data, the breadth and complexity of the questions we can
+                ask about the data we have contributed will increase. Relationships between editors in the dataset
+                and other people described in Wikidata will continue to grow over time.
               </Typography>
               <br />
               <Button
@@ -238,60 +226,6 @@ const HomePage = () => {
             </Typography>
           </div>
           <HistropediaTimeline id="editors-timeline" />
-        </Grid>
-        <Grid
-          className={classes.biblio}
-          item
-          md={8}
-          xs={12}
-        >
-          <Typography
-            className={classes.bold}
-            color="primary"
-            variant="h4"
-          >
-            Related Publications
-          </Typography>
-          <iframe
-            frameBorder="0"
-            height="400"
-            src={biblioURL}
-            title="WeChanged Publications - Biblio"
-            width="100%"
-          />
-        </Grid>
-        <Grid
-          className={classes.blog}
-          item
-          md={4}
-          xs={12}
-        >
-          <img
-            alt="WeChanEd Logo"
-            className={classes.logo}
-            src={logo}
-          />
-          <br />
-          <Typography
-            className={classes.bold}
-            color="primary"
-            variant="h3"
-          >
-            WeChangEd Blog
-          </Typography>
-          <Typography>
-            {/* TODO */}
-            Check out our latest posts about the project.
-          </Typography>
-          <br />
-          <Button
-            color="primary"
-            href={blogURL}
-            target="_blank"
-            variant="contained"
-          >
-            Learn More
-          </Button>
         </Grid>
       </Grid>
     </AppLayout>
