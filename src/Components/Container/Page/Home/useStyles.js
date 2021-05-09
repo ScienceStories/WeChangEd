@@ -20,7 +20,12 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: theme.typography.fontWeightBold,
   },
   blog: {
+    background: theme.palette.primary.light,
     padding: theme.spacing(5),
+  },
+  biblio: {
+    padding: theme.spacing(4),
+    textAlign: 'left',
   },
   bold: {
     fontWeight: theme.typography.fontWeightBold,

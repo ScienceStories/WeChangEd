@@ -23,7 +23,7 @@ const AppBarContainer = ({ location }) => {
     return setFormAction(searchURL(null, value));
   }
   const handleSubmit = () => history.push(formAction);
-  const linkClass = (path) => activeRoute(path) ? [classes.linkActive, classes.link] : classes.link;
+  const linkClass = (path) => activeRoute(path) ? `${classes.linkActive} ${classes.link}` : classes.link;
   return (
     <Grid
       className={classes.root}

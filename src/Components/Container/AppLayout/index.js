@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Footer from '../../Presentational/Footer';
-import Resources from '../../Presentational/Resources';
 import AppBarContainer from '../AppBar';
 
 const AppLayout = ({ children, className }) => (
@@ -10,7 +9,6 @@ const AppLayout = ({ children, className }) => (
    <div className={className}>
      { children }
    </div>
-   <Resources />
    <Footer />
  </div>
 );

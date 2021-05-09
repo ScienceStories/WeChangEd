@@ -6,6 +6,7 @@ import story1 from '../../../../assets/images/story-1.png';
 import story2 from '../../../../assets/images/story-2.png';
 import story3 from '../../../../assets/images/story-3.png';
 import {
+  biblioURL,
   blogURL,
   browseURL,
   logo,
@@ -233,15 +234,37 @@ const HomePage = () => {
               color="primary"
               variant="h4"
             >
-              Over 2 Centuries of Change Agents
+              Over Two Centuries of Women’s Editorship
             </Typography>
           </div>
           <HistropediaTimeline id="editors-timeline" />
         </Grid>
         <Grid
+          className={classes.biblio}
+          item
+          md={8}
+          xs={12}
+        >
+          <Typography
+            className={classes.bold}
+            color="primary"
+            variant="h4"
+          >
+            Related Publications
+          </Typography>
+          <iframe
+            frameBorder="0"
+            height="400"
+            src={biblioURL}
+            title="WeChanged Publications - Biblio"
+            width="100%"
+          />
+        </Grid>
+        <Grid
           className={classes.blog}
           item
-          xs={11}
+          md={4}
+          xs={12}
         >
           <img
             alt="WeChanEd Logo"
@@ -249,9 +272,6 @@ const HomePage = () => {
             src={logo}
           />
           <br />
-          <Typography variant="overline">
-            See Our Latest Posts
-          </Typography>
           <Typography
             className={classes.bold}
             color="primary"
@@ -260,7 +280,8 @@ const HomePage = () => {
             WeChangEd Blog
           </Typography>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci autem consectetur corporis cum itaque iusto odio totam! Alias aperiam culpa expedita incidunt, iusto laborum, maiores numquam quam quasi quis rem reprehenderit sequi similique sunt voluptas. Cupiditate harum hic, incidunt itaque iusto maxime! Ab adipisci amet corporis eligendi facilis, voluptatum!
+            {/* TODO */}
+            Check out our latest posts about the project.
           </Typography>
           <br />
           <Button

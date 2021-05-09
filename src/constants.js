@@ -1,7 +1,10 @@
 import _logo from './assets/images/logo.png';
 
 export const blogURL = 'https://www.wechanged.ugent.be/blog/';
+export const biblioURL = 'https://biblio.ugent.be/publication?embed=1&q=%22Marianne+Van+Remoortel%22&hide_info=1&hide_options=1';
+export const publicationsURL = 'https://nam12.safelinks.protection.outlook.com/?url=https%3A%2F%2Fbiblio.ugent.be%2Fproject%2F41H02315&data=04|01|katherine.thornton%40yale.edu|37b70dc60a2944a5177608d8f5a45b27|dd8cbebb21394df8b4114e3e87abeb5c|0|0|637529433561941691|Unknown|TWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D|1000&sdata=esu76bkgQW6zWgj99vO8vb40ZDfR3wmRSRYmnfhp%2F20%3D&reserved=0'
 export const browseURL = '/stories';
+export const teamURL = '/team';
 export const ghentColor = {
   black: '#202020',
   blue: '#1E64C8',
@@ -24,6 +27,8 @@ export const mapQueryUrl = 'https://query.wikidata.org/embed.html#%23defaultView
 export const navLinks = [
   { path: '/', title: 'Home' },
   { path: browseURL, title: 'Browse Stories' },
+  { path: teamURL, title: 'Team' },
+  { href: publicationsURL, title: 'Publications' },
   { href: blogURL, title: 'Blog' },
 ];
 export const projectUrl = 'https://www.wechanged.ugent.be/';
@@ -57,7 +62,7 @@ export const siteName = 'Agents of Change';
 export const storiesAPICollectionId = 2;
 export const storiesAPIEndpoint = 'https://stories-api-stage.herokuapp.com';
 export const storiesAPIKey = 'rf9qXEDE.SqlziAxtY58fTbSyx2MoKz2naXO9UlvE';
-export const storiesAPISPARQLQueryId = 3;
+export const storiesAPISPARQLQueryId = 4;
 export const theme = {
   palette: {
     accent: {
