@@ -28,7 +28,7 @@ export const navLinks = [
   { path: browseURL, title: 'Browse Stories' },
   { path: teamURL, title: 'Team' },
   { href: publicationsURL, title: 'Publications' },
-  { href: blogURL, title: 'Blog' },
+  // { href: blogURL, title: 'Blog' },
 ];
 export const projectUrl = 'https://www.wechanged.ugent.be/';
 export const siteName = 'Agents of Change';
