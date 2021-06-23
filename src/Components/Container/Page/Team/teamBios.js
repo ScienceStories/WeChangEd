@@ -4,12 +4,7 @@ export default [
   {
     image: teamImage('team-marianne-vr.jpg'),
     name: 'Marianne Van Remoortel',
-    text: 'Marianne Van Remoortel is Assistant Professor at the Department of Literary Studies, Ghent University.',
-  },
-  {
-    image: teamImage('team-eline-b.jpeg'),
-    name: 'Eline Batsleer',
-    text: 'Eline Batsleer is an intern on the WeChangEd project.',
+    text: 'Marianne Van Remoortel was the PI of the WeChangEd project in 2015-21',
   },
   {
     image: teamImage('team-julie-b.jpg'),
@@ -52,6 +47,11 @@ export default [
     name: 'Aulikki Lefèvre',
     text: 'Aulikki Lefèvre worked as an intern on the WeChangEd project in the spring of 2020.',
     time: '2020 (March - May)',
+  },
+  {
+    image: teamImage('team-eline-b.jpeg'),
+    name: 'Eline Batsleer',
+    text: 'Eline Batsleer was an intern on the WeChangEd project in October 2020 - April 2021.',
   },
   {
     image: teamImage('team-fauve-v.jpg'),

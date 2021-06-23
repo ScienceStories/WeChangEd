@@ -12,7 +12,6 @@ const TeamMemberCard = ({
   image,
   name,
   text,
-  time,
 }) => {
   const classes = useStyles();
   return (
@@ -26,14 +25,6 @@ const TeamMemberCard = ({
         <Typography variant="h5">
           { name }
         </Typography>
-        { time && (
-          <Typography
-            color="primary"
-            variant="subtitle1"
-          >
-            { time }
-          </Typography>
-        )}
         <Typography
           color="textSecondary"
           component="p"

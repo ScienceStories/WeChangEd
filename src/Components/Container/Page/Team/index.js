@@ -29,12 +29,7 @@ const TeamPage = () => {
             Meet the WeChanged Team
           </Typography>
         </Grid>
-        {teamBios.map(({
-          image,
-          name,
-          text,
-          time,
-        }) => (
+        {teamBios.map(({ image, name, text }) => (
           <Grid
             item
             key={name}
@@ -43,7 +38,6 @@ const TeamPage = () => {
               image={image}
               name={name}
               text={text}
-              time={time}
             />
           </Grid>
         ))}
