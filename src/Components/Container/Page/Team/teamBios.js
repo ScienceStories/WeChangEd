@@ -1,6 +1,5 @@
 const teamImage = (fileName) => `/assets/images/${fileName}`;
-
-export default [
+const teamData = [
   {
     image: teamImage('team-marianne-vr.jpg'),
     name: 'Marianne Van Remoortel',
@@ -85,14 +84,4 @@ export default [
   },
 ];
 
-
-
-
-
-
-
-
-
-
-
-
+export default teamData;
