@@ -1,6 +1,5 @@
 import _logo from './assets/images/logo.png';
 
-export const blogURL = 'https://www.wechanged.ugent.be/blog/';
 export const publicationsURL = 'https://biblio.ugent.be/project/41H02315';
 export const browseURL = '/stories';
 export const teamURL = '/team';
@@ -33,7 +32,7 @@ export const navLinks = [
 export const projectUrl = 'https://www.wechanged.ugent.be/';
 export const siteName = 'Agents of Change';
 export const storiesAPICollectionId = 2;
-export const storiesAPIEndpoint = 'https://stories-api-stage.herokuapp.com';
+export const storiesAPIEndpoint = 'https://stories.k2.services';
 export const storiesAPIKey = 'rf9qXEDE.SqlziAxtY58fTbSyx2MoKz2naXO9UlvE';
 export const storiesAPISPARQLQueryId = 4;
 export const theme = {

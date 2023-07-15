@@ -42,7 +42,7 @@ const Footer = () => {
             <Button
               className={classes.ssBtn}
               color="secondary"
-              href="http://sciencestories.io"
+              href="https://sciencestories.io"
               size="small"
               target="_blank"
               >
